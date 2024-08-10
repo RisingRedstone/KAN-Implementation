@@ -1,0 +1,19 @@
+KAN ideas
+
+Use a normal neural net to train a KAN
+Distillation from a normal neural net
+
+train on MNIST dataset
+//keep the first layer as a regular MLP and then have KAN so the MLP can learn to adjust the values for KAN
+
+Keep lower interval values near the input layer and higher interval value near the output layer
+
+Keep Increasing Range and grid size for better
+
+
+Types of model Change:
+	Spline Complexity Increase Or Decrease
+	Model Layers Add or Remove
+	Layer Neurons Add or Remove
+
+Put extra regularization loss on nodes you're about to prune and then prune
